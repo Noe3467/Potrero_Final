@@ -4,21 +4,31 @@ body {
 
 .input {
    
-    display: flex;
-    justify-content: center;
-    /*se alinea en el eje horizontal*/
-    align-items: center;
-    /*se alinea en el eje vertical*/
-    border-radius: 125%;
+    border-radius: 25%;
     background-color: aliceblue;
     max-width: 30%;
     height: auto;
-    margin: 4% 3%;
+    margin: 1.5% ;
     padding: 1% 6%;
     font-size: 18px;
     margin-left: 30%;
 }
 
 i, p {
-    margin: 10px;
+    margin: 5px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-top: 5%;
+    max-width: 10%;
+    border-radius: 20%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
